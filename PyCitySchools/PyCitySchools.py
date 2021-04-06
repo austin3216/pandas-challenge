@@ -24,6 +24,10 @@ school_data_all_df.columns
 tot_schools = len(pd.unique(school_data_df['school_name']))
 tot_schools
 
+# calculate total number of students
+tot_students_dist = student_data_df['Student ID'].count()
+tot_students_dist
+
 # calculate total budget
 tot_budget_dist = school_data_df['budget'].sum()
 tot_budget_dist
