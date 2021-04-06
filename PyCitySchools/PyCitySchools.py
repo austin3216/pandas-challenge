@@ -213,6 +213,7 @@ math_scores_by_grade["12th"] = math_scores_by_grade["12th"].map("{:.2f}".format)
 # remove Index title 'school_name'
 math_scores_by_grade.index.name = None
 
+print('MATH SCORES BY GRADE')
 math_scores_by_grade.head()
 
 # READING SCORES BY GRADE
@@ -243,6 +244,7 @@ read_scores_by_grade["12th"] = read_scores_by_grade["12th"].map("{:.2f}".format)
 # remove Index title 'school_name'
 read_scores_by_grade.index.name = None
 
+print('READING SCORES BY GRADE')
 read_scores_by_grade.head()
 
 # SCORES BY SCHOOL SPENDING
